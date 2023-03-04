@@ -14,7 +14,8 @@ data = loadData("sampledata/california_housing_test.csv")
 longitude = [aux[0] for aux in data]
 latitude = [aux[1] for aux in data]
 
-plt.plot(longitude, latitude, 'bo')
+#plt.plot(longitude, latitude, 'bo')
+plt.scatter(longitude, latitude,s=1)
 plt.show()
 
 
